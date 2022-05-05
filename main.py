@@ -7,7 +7,7 @@ question_bank = []
 
 for q in question_data:
     question_text = q["question"]
-    question_answer = q["question"]
+    question_answer = q["answer"]
     new_question = Question(question_text, question_answer)
     question_bank.append(new_question)
 
